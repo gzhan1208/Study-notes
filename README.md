@@ -6,4 +6,4 @@ learn something.
 ## 目录
 
 - vue
-  - [mixin简单使用](vue/minxin.md)
+  - [mixin简单使用](vue/mixin.md)
