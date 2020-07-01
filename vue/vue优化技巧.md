@@ -98,22 +98,29 @@
   和 [vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) 来优化这种无限列表的场景的。
 ### 1.10. 服务端渲染SSR或者预渲染
   > 服务端渲染优点：  
-    - 更好的 SEO ： SPA 页面内容是通过 Ajax 获取，搜索引擎爬取工具不会等待 Ajax 异步完成再抓取内容；而 SSR 直接由服务端返回渲染好的页面  
-    - 更快的内容到达时间： SPA 会等待 Vu e编译后的 js 文件都下载完成后才会开始页面渲染； SSR 直接由服务端返回渲染好的页面，无需等待下载js文件  
+      更好的 SEO ： SPA 页面内容是通过 Ajax 获取，搜索引擎爬取工具不会等待 Ajax 异步完成再抓取内容；而 SSR 直接由服务端返回渲染好的页面  
+      更快的内容到达时间： SPA 会等待 Vue 编译后的 js 文件都下载完成后才会开始页面渲染； SSR 直接由服务端返回渲染好的页面，无需等待下载js文件  
   > 服务端渲染缺点：  
-    - 更多的开发条件限制：只支持 beforCreate 和 created 两个钩子函数，这会导致一些外部扩展库需要特殊处理，才能在服务端渲染应用程序中运行；服务端渲染应用程序需要 Node.js server 运行环境  
-    - 更多的服务器负载：因为在 Node.js 中渲染完成的应用程序，所以会占用部分 CPU 资源，如果在高流量环境下使用，需要准备相应的服务器负载，并民智的采用缓存策略  
+      更多的开发条件限制：只支持 beforCreate 和 created 两个钩子函数，这会导致一些外部扩展库需要特殊处理，才能在服务端渲染应用程序中运行；服务端渲染应用程序需要 Node.js server 运行环境  
+      更多的服务器负载：因为在 Node.js 中渲染完成的应用程序，所以会占用部分 CPU 资源，如果在高流量环境下使用，需要准备相应的服务器负载，并民智的采用缓存策略  
 
 ## 2.Webpack层面  
-### 2.1. 对图片进行压缩
+### 2.1. 对图片进行压缩  
+  使用 [image-webpack-loader](github.com/tcoopman/image-webpack-loader#readme) 来压缩图片
 ### 2.2. 减少 ES6 转为 ES5 的冗余代码
 ### 2.3. 提取公共代码
-### 2.4. 模板预编译
+  使用 [CommonsChunkPlugin](https://webpack.js.org/plugins/commons-chunk-plugin/) 插件提取公共代码
+### 2.4. 模板预编译  
+  使用 [vue-template-loader](github.com/ktsn/vue-template-loader#readme) ，它也可以在构建过程中把模板文件转换成为 [JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 渲染函数。
 ### 2.5. 提取组件CSS
-### 2.6. 对图片进行压缩
-### 2.7. 对图片进行压缩
-### 2.8. 对图片进行压缩
-
+  [webpack](https://www.webpackjs.com/concepts/) + [vue-loader](https://vue-loader.vuejs.org/) ( [vue-cli](https://cli.vuejs.org/guide/) 的 [webpack](https://www.webpackjs.com/concepts/) 模板已经预先配置好)
+### 2.6. 优化SourceMap
+### 2.7. 构建结果输出分析
 
 ## 3.Web层面  
+### 3.1. 开启 gzip 压缩
+  使用 [compression](github.com/expressjs/compression#readme) 开启gzip压缩
+### 3.2. 浏览器缓存
+### 3.3. CDN的使用
+### 3.4. Chrome Performance查找性能瓶颈
 
