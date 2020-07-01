@@ -7,3 +7,4 @@ learn something.
 
 - vue
   - [mixin简单使用](vue/mixin.md)
+  - [vue优化技巧](vue/vue优化技巧.md)
