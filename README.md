@@ -7,6 +7,7 @@ learn something.
 - vue
   - [mixin简单使用](vue/mixin.md)
   - [vue优化技巧](vue/vue优化技巧.md)
+  - [watch和computed区别](vue/watch和computed区别.md)
 - js
   - [判断一个值为null](js/判断一个值为null.md)
   - [常用js内置对象](js/常用js内置对象.md)
@@ -24,3 +25,4 @@ learn something.
 - 杂
   - [图片懒加载原理及实现](杂/图片懒加载原理及实现.md)
   - [堆栈和队列](杂/堆栈和队列.md)
+  - [模仿element弹窗中的alert和confirm](杂/模仿element的弹窗)
