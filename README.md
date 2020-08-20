@@ -9,6 +9,7 @@ learn something.
   - [vue优化技巧](vue/vue优化技巧.md)
   - [watch和computed区别](vue/watch和computed区别.md)
   - [关于vue中的key](vue/关于vue中的key.md)
+  - [关于vue中修改含有[data-v-xxxx]属性的样式](vue/修改含有[data-v-xxxx]属性的样式.md)
 - js
   - [判断一个值为null](js/判断一个值为null.md)
   - [常用js内置对象](js/常用js内置对象.md)
@@ -19,6 +20,7 @@ learn something.
   - [返回上一个页面](js/返回上一个页面.md)
   - [关于元素偏移量](js/关于元素偏移量.md)
   - [关于事件代理](js/事件代理的好处.md)
+  - [记录去抖动、节流和防爆点的几个函数](js/记录一下去抖动，节流及爆点的三个函数.md)
 - css
   - [css3能开启硬件加速的几种属性](css/硬件加速.md)
   - [css中可继承的属性](css/css中可继承的属性.md)
@@ -26,6 +28,8 @@ learn something.
   - [关于0.5px的细线](css/关于0.5px的细线.md)
 - 小问题解决记录
   - [关于position值为fixed时引起的层叠关系问题](小问题解决记录/关于position值为fixed时引起的层叠关系问题.md)
+  - [关于Error in created hook xxx问题](小问题解决记录/Error in created hook xxx问题.md)
+  - [关于字符串内三元运算符及其优先级.md](小问题解决记录/关于字符串内三元运算符及其优先级.md)
 - 杂
   - [图片懒加载原理及实现](杂/图片懒加载原理及实现.md)
   - [堆栈和队列](杂/堆栈和队列.md)
