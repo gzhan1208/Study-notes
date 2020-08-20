@@ -28,8 +28,8 @@ learn something.
   - [关于0.5px的细线](css/关于0.5px的细线.md)
 - 小问题解决记录
   - [关于position值为fixed时引起的层叠关系问题](小问题解决记录/关于position值为fixed时引起的层叠关系问题.md)
-  - [关于Error in created hook xxx问题](小问题解决记录/Error in created hook xxx问题.md)
-  - [关于字符串内三元运算符及其优先级.md](小问题解决记录/关于字符串内三元运算符及其优先级.md)
+  - [关于Error in created hook xxx问题](小问题解决记录/Error&#32;in&#32;created&#32;hook&#32;xxx问题.md)
+  - [关于字符串内三元运算符及其优先级](小问题解决记录/关于字符串内三元运算符及其优先级.md)
 - 杂
   - [图片懒加载原理及实现](杂/图片懒加载原理及实现.md)
   - [堆栈和队列](杂/堆栈和队列.md)
