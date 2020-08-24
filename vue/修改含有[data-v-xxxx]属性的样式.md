@@ -24,7 +24,7 @@
 ```javascript
   <style lang="scss" scoped>
     .a {
-      ::v-deep/ .b {
+      ::v-deep .b {
         /* ... */
       }
     }
