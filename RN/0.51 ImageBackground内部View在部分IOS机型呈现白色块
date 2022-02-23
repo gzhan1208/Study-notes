@@ -1,0 +1,5 @@
+### 给c出现白快的模块外层View，增加背景色设置
+
+```javascript
+backgroundColor: 'rgba(255, 255, 255, 0)'
+```
